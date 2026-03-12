@@ -54,7 +54,7 @@ frappe.pages["group-bi-board"].on_page_load = function(wrapper) {
             periodicity: "Monthly"
         };
         frappe.call({
-            method: "alphax_group_bi.api.report_engine.run_report",
+            method: "alphax_group_bi.alphax_group_bi.api.report_engine.run_report",
             args: {filters},
             callback: function(r) {
                 const payload = r.message || {};
