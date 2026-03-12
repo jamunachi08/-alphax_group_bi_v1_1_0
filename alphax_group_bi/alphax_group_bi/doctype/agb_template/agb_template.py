@@ -2,7 +2,7 @@ import frappe
 from frappe import _
 from frappe.model.document import Document
 
-from alphax_group_bi.utils.mapping import template_rows_from_sample, parse_map_file
+from alphax_group_bi.alphax_group_bi.utils.mapping import template_rows_from_sample, parse_map_file
 
 def _safe_scrub(value: str) -> str:
     return frappe.scrub(value or "")

@@ -1,4 +1,4 @@
-from alphax_group_bi.api.report_engine import build_report
+from alphax_group_bi.alphax_group_bi.api.report_engine import build_report
 
 def execute(filters=None):
     payload = build_report(filters or {})
