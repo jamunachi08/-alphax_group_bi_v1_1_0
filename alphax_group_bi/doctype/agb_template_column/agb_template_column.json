@@ -1,0 +1,21 @@
+{
+  "doctype":"DocType",
+  "name":"AGB Template Column",
+  "module":"AlphaX Group BI",
+  "istable":1,
+  "field_order":["column_label","time_bucket","periodicity","period_offset","is_budget","is_variance","is_variance_pct"],
+  "fields":[
+    {"fieldname":"column_label","fieldtype":"Data","label":"Column Label","reqd":1,"in_list_view":1},
+    {"fieldname":"time_bucket","fieldtype":"Select","label":"Time Bucket","options":"Current Period\nPrior Period\nYTD\nQTD\nCustom","default":"Current Period"},
+    {"fieldname":"periodicity","fieldtype":"Select","label":"Periodicity","options":"Monthly\nQuarterly\nYearly\nTotal","default":"Monthly"},
+    {"fieldname":"period_offset","fieldtype":"Int","label":"Period Offset","default":"0"},
+    {"fieldname":"is_budget","fieldtype":"Check","label":"Budget"},
+    {"fieldname":"is_variance","fieldtype":"Check","label":"Variance"},
+    {"fieldname":"is_variance_pct","fieldtype":"Check","label":"Variance %"}
+  ],
+  "permissions":[
+    {"role":"System Manager","read":1,"write":1,"create":1,"delete":1,"share":1,"print":1,"email":1,"export":1},
+    {"role":"Accounts Manager","read":1,"write":1,"create":1,"delete":1,"print":1,"email":1,"export":1},
+    {"role":"Accounts User","read":1,"print":1,"email":1,"export":1}
+  ]
+}

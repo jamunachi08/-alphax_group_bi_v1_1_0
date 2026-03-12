@@ -1,0 +1,28 @@
+{
+  "doctype":"DocType",
+  "name":"AGB Template Row",
+  "module":"AlphaX Group BI",
+  "istable":1,
+  "field_order":["sequence","row_key","row_label","row_label_ar","row_type","classification","account","account_group","account_tokens","include_children","company_override","sign_factor","formula","notes"],
+  "fields":[
+    {"fieldname":"sequence","fieldtype":"Int","label":"Sequence","in_list_view":1},
+    {"fieldname":"row_key","fieldtype":"Data","label":"Row Key","reqd":1,"in_list_view":1},
+    {"fieldname":"row_label","fieldtype":"Data","label":"Row Label","reqd":1,"in_list_view":1},
+    {"fieldname":"row_label_ar","fieldtype":"Data","label":"Arabic Label"},
+    {"fieldname":"row_type","fieldtype":"Select","label":"Row Type","options":"Heading\nAccount\nFormula\nTotal\nSpacer","default":"Account","reqd":1,"in_list_view":1},
+    {"fieldname":"classification","fieldtype":"Data","label":"Classification"},
+    {"fieldname":"account","fieldtype":"Link","label":"Account","options":"Account"},
+    {"fieldname":"account_group","fieldtype":"Link","label":"Account Group","options":"Account"},
+    {"fieldname":"account_tokens","fieldtype":"Long Text","label":"Account Tokens","description":"One token per line, or comma separated. Useful for importing label to multiple account mappings from Excel."},
+    {"fieldname":"include_children","fieldtype":"Check","label":"Include Children","default":"1"},
+    {"fieldname":"company_override","fieldtype":"Link","label":"Company Override","options":"Company"},
+    {"fieldname":"sign_factor","fieldtype":"Float","label":"Sign Factor","default":"1"},
+    {"fieldname":"formula","fieldtype":"Data","label":"Formula","description":"Use row keys, e.g. revenue - cost_of_sales"},
+    {"fieldname":"notes","fieldtype":"Small Text","label":"Notes"}
+  ],
+  "permissions":[
+    {"role":"System Manager","read":1,"write":1,"create":1,"delete":1,"share":1,"print":1,"email":1,"export":1},
+    {"role":"Accounts Manager","read":1,"write":1,"create":1,"delete":1,"print":1,"email":1,"export":1},
+    {"role":"Accounts User","read":1,"print":1,"email":1,"export":1}
+  ]
+}

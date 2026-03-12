@@ -1,0 +1,87 @@
+Chart of account,P&L Classification
+31101024 - Sales - IRSAA,Revenue
+31101007 - Revenue - ITBS ايرادات - حلول الاعمال التكنولوجية - IRSAA,Revenue
+31101013 - Revenue - Project ايرادات - المشاريع - IRSAA,Revenue
+31101002 - Revenue - Internal Audit ايرادات - المراجعة الداخليه - IRSAA,Revenue
+31101010 - Revenue - VAT ايرادات - خدمات ضريبة القيمة المضافه - IRSAA,Revenue
+31101009 - Revenue - Accounting Services ايرادات - الخدمات المحاسبية - IRSAA,Revenue
+31101017 - Revenue - Crayotech JV ايرادات - كريوتيك - IRSAA,Revenue
+31101020 - Revenue - IRSAA IT ايرادات - تكنولوجيا المعلومات لارساء - IRSAA,Revenue
+31101005 - Revenue - HR Managed Services ايرادات - خدمات ادارة الموارد البشريه - IRSAA,Revenue
+31101016 - Revenue - NII JV ايرادات - ان اي اي - IRSAA,Revenue
+31101023 - Revenue - Kafaa - IRSAA,Revenue
+31101028 - Revenue - Fixed Assets - IRSAA,Revenue
+31101027 - Revenue - ALPHA X ERP - IRSAA,Revenue
+31101029 - Revenue - ALPHA X FAM - IRSAA,Revenue
+42101001 - OP - Basic Salary مصاريف تشغيلية - الراتب الأساسي - IRSAA,Total Employee Cost
+42102001 - OP - Change of Sponsorship مصاريف تشغيلية - نقل الكفاله - IRSAA,Total Employee Cost
+42102003 - OP - Exit-Re-Entry Visa مصاريف تشغيلية - رسوم الخروج والعودة - IRSAA,Total Employee Cost
+42102002 - OP - Iqama Renewal مصاريف تشغيلية - تجديد الاقامات - IRSAA,Total Employee Cost
+42101002 - OP - Housing Allowance مصاريف تشغيلية - بدل السكن - IRSAA,Total Employee Cost
+42101003 - OP - Transportation Allowance مصاريف تشغيلية - بدل التنقل - IRSAA,Total Employee Cost
+42101009 - OP - GOSI مصاريف تشغيلية - تأمينات اجتماعية - IRSAA,Total Employee Cost
+42101004 - OP - Other Allowance مصاريف تشغيلية - بدلات أخرى - IRSAA,Total Employee Cost
+42101012 - OP - Medical Insurance مصاريف تشغيلية - تأمين طبي - IRSAA,Total Employee Cost
+42102005 - OP - Vacation Tickets مصاريف تشغيلية - بدل تذاكر السفر - IRSAA,Total Employee Cost
+42102004 - OP - Vacation - Salary مصاريف تشغيلية - بدل الاجازات - IRSAA,Total Employee Cost
+42102006 - OP - End Of Service Benefits مصاريف تشغيلية - مكافأة نهاية الخدمة - IRSAA,Total Employee Cost
+42101015 - Op - AssignmentIncentive - IRSAA,Total Employee Cost
+42101014 - OP - KPI مصاريف تشغيلية - تقييم الأداء - IRSAA,Total Employee Cost
+42102008 - OP - Visa Issuance fee - IRSAA,Total Employee Cost
+42101011 - OP - Other Income مصاريف تشغيلية - ايرادات أخرى - IRSAA,Total Employee Cost
+42101006 - OP - Overtime مصاريف تشغيلية - عمل اضافي - IRSAA,Total Employee Cost
+42301001 - Bank Charges مصاريف العمولات البنكية - IRSAA,Bank Charges
+41101025 - Cost - Network Intelligence KSA - IRSAA,Cost of revenue for service and solutions
+41101015 - Cost - Projects - IRSAA,Cost of revenue for service and solutions
+41101005 - Cost - Internal Audit تكلفة - خدمات المراجعة الداخلية - IRSAA,Cost of revenue for service and solutions
+41101013 - Cost - Consultancy تكلفة - الخدمات الاستشاريه - IRSAA,Cost of revenue for service and solutions
+41101022 - Cost - IT Managed Services تكلفة الخدمات الادارية التكنولوجية - IRSAA,Cost of revenue for service and solutions
+41101011 - Cost - Accounting Services تكلفة - الخدمات المحاسبية - IRSAA,Cost of revenue for service and solutions
+41101008 - Cost - HR Managed Services تكلفة - خدمات ادارة الموارد البشريه - IRSAA,Cost of revenue for service and solutions
+41101004 - Cost - ITBS تكلفة - حلول الاعمال التكنولوجية - IRSAA,Cost of revenue for service and solutions
+41101019 - Cost - Crayotech JV تكلفة - كريوتيك - IRSAA,Cost of revenue for service and solutions
+41101020 - Cost - Free Lancer تكلفة - موظفين خارجيين - IRSAA,Cost of revenue for service and solutions
+42106003 - Commission مصاريف العمولات - IRSAA,Cost of revenue for service and solutions
+42207001 - Admin - Hospitality & Refreshment المصاريف الادارية - الضيافه - IRSAA,Kitchen / Stationary / Computer and other supplies
+42204006 - Admin - Cleaning Expenses المصاريف الادارية - نظافه - IRSAA,Kitchen / Stationary / Computer and other supplies
+42103001 - OP - Stationery مصاريف تشغيلية - قرطاسية - IRSAA,Kitchen / Stationary / Computer and other supplies
+42103003 - OP - Computer Supplies مصاريف تشغيلية - مستلزمات الحاسب - IRSAA,Kitchen / Stationary / Computer and other supplies
+42208001 - Cleaning Material - Office ادوات نظافة - IRSAA,Kitchen / Stationary / Computer and other supplies
+42204004 - Admin Postage & Mailing المصاريف الادارية - البريد السريع - IRSAA,Kitchen / Stationary / Computer and other supplies
+42104001 - OP - Travel Expense مصاريف تشغيلية - سفر - IRSAA,Hotels / Accommodation and Travel Expenses
+42203004 - Guest House Rent - (NII) بيت الضيافة للإيجار - (NII) - IRSAA,Hotels / Accommodation and Travel Expenses
+42104004 - OP - Per diem - IRSAA,Hotels / Accommodation and Travel Expenses
+42203005 - Accomodation - IRSAA,Hotels / Accommodation and Travel Expenses
+42105001 - OP - Car Fuel مصاريف تشغيلية - وقود السيارات - IRSAA,Hotels / Accommodation and Travel Expenses
+42104003 - OP - Hospitality & Refreshments - IRSAA,Hotels / Accommodation and Travel Expenses
+42205004 - Other Government Related Fee المصاريف الحكومية الأخرى - IRSAA,Government related
+42205002 - Admin - Chamber of Commerce المصاريف الادارية - الغرفة التجارية - IRSAA,Government related
+42206002 - Admin - Office Maintenance صيانة مكاتب - IRSAA,Repairs /  Maintenance and other services
+42208011 - Donation Expenses - IRSAA,Repairs /  Maintenance and other services
+42208002 - Server Hosting استضافة الخوادم - IRSAA,Subscriptions & Server Hosting
+42208005 - Subscriptions إشتراكات - IRSAA,Subscriptions & Server Hosting
+42204001 - Admin Water Expenses المصاريف الادارية - مياه - IRSAA,Utilities
+42204005 - Admin Web & Internet المصاريف الادارية - انترنت - IRSAA,Utilities
+42204003 - Admin Telephone المصاريف الادارية - هاتف - IRSAA,Utilities
+42204002 - Admin Electricity Expenses المصاريف الادارية - كهرباء - IRSAA,Utilities
+42101013 - OP - Management Fees مصاريف تشغيلية - أتعاب ادارية - IRSAA,Management  Fee
+42203007 - Office Rent - Jeddah - IRSAA,Rent
+42203001 - Building Rent مصروف ايجار المبنى - IRSAA,Rent
+42203009 - Office Rent (Jeddah - VAT Office) - IRSAA,Rent
+42203008 - Office Rent - GMO office (HO) - IRSAA,Rent
+42203010 - Office Rent - Akaria Office - IRSAA,Rent
+42208004 - Admin Audit Fees اتعاب مراجعة الحسابات - IRSAA,Consultation and Audit Fee
+42101008 - OP - Consultancy Fee مصاريف تشغيلية - أتعاب استشارية - IRSAA,Consultation and Audit Fee
+42210003 - Depreciation - Office & Electrical Equipments مصاريف الاستهلاك -معدات كهربائية ومكتبية - IRSAA,Depreciation And Amortization
+42210001 - Depreciation - Furniture & Fixtures مصاريف الاستهلاك - الأثاث - IRSAA,Depreciation And Amortization
+42210005 - Depreciation - Computer Hardware مصاريف الاستهلاك - أجهزة الحاسب الآلي - IRSAA,Depreciation And Amortization
+42210002 - Depreciation - Leasehold Improvement مصاريف الاستهلاك - تحسينات على مباني مستأجرة - IRSAA,Depreciation And Amortization
+42106004 - Google Ads' - IRSAA,Marketing Expenses
+42106005 - Call Center - IRSAA,Marketing Expenses
+42106001 - Social Media Expenses مصاريف التسويق ووسائل التواصل الإجتماعي - IRSAA,Marketing Expenses
+43101001 - Zakat Expense مصاريف الزكاة - IRSAA,Zakat and Other Charges
+42301005 - Facilities Charges مصاريف التسهيلات البنكية - IRSAA,Commission for Financing
+42301003 - Bank Charges for Letter of Guarantee مصاريف العمولات البنكية على فتح خطابات الضمان - IRSAA,Commission For LG
+42301004 - Finance Interest مصاريف فوائد على التمويل - IRSAA,Finance Interest
+42208006 - Bad debt Expenses مصاريف الديون المعدومه - IRSAA,Bad debt Expenses
+31102002 - Other Revenue ايرادات أخرى - IRSAA,Other Revenue

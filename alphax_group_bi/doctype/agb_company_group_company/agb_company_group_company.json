@@ -1,0 +1,16 @@
+{
+  "doctype":"DocType",
+  "name":"AGB Company Group Company",
+  "module":"AlphaX Group BI",
+  "istable":1,
+  "field_order":["company","is_elimination_company"],
+  "fields":[
+    {"fieldname":"company","fieldtype":"Link","label":"Company","options":"Company","reqd":1,"in_list_view":1},
+    {"fieldname":"is_elimination_company","fieldtype":"Check","label":"Is Elimination Company"}
+  ],
+  "permissions":[
+    {"role":"System Manager","read":1,"write":1,"create":1,"delete":1,"share":1,"print":1,"email":1,"export":1},
+    {"role":"Accounts Manager","read":1,"write":1,"create":1,"delete":1,"print":1,"email":1,"export":1},
+    {"role":"Accounts User","read":1,"print":1,"email":1,"export":1}
+  ]
+}

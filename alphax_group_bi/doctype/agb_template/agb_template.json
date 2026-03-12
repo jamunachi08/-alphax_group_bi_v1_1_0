@@ -1,0 +1,23 @@
+{
+  "doctype":"DocType",
+  "name":"AGB Template",
+  "module":"AlphaX Group BI",
+  "field_order":["template_name","report_type","template_scope","default_company","default_company_group","description","row_mappings","column_schema"],
+  "fields":[
+    {"fieldname":"template_name","fieldtype":"Data","label":"Template Name","reqd":1,"in_list_view":1},
+    {"fieldname":"report_type","fieldtype":"Select","label":"Report Type","options":"P&L\nBalance Sheet\nTrial Balance\nCash Flow\nCustom MIS","default":"P&L","reqd":1},
+    {"fieldname":"template_scope","fieldtype":"Select","label":"Template Scope","options":"Standalone\nGroup\nConsolidated","default":"Standalone"},
+    {"fieldname":"default_company","fieldtype":"Link","label":"Default Company","options":"Company"},
+    {"fieldname":"default_company_group","fieldtype":"Link","label":"Default Company Group","options":"AGB Company Group"},
+    {"fieldname":"description","fieldtype":"Small Text","label":"User Guidance / Description"},
+    {"fieldname":"row_mappings","fieldtype":"Table","label":"Row Mappings","options":"AGB Template Row","reqd":1},
+    {"fieldname":"column_schema","fieldtype":"Table","label":"Column Schema","options":"AGB Template Column"}
+  ],
+  "permissions":[
+    {"role":"System Manager","read":1,"write":1,"create":1,"delete":1,"share":1,"print":1,"email":1,"export":1},
+    {"role":"Accounts Manager","read":1,"write":1,"create":1,"delete":1,"print":1,"email":1,"export":1},
+    {"role":"Accounts User","read":1,"print":1,"email":1,"export":1}
+  ],
+  "autoname":"field:template_name",
+  "title_field":"template_name"
+}

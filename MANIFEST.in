@@ -1,0 +1,1 @@
+recursive-include alphax_group_bi *.json *.js *.css *.csv *.md *.txt *.html *.png *.svg

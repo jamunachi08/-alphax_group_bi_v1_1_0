@@ -1,0 +1,18 @@
+{
+  "doctype": "DocType",
+  "name": "AGB Settings",
+  "module": "AlphaX Group BI",
+  "issingle": 1,
+  "field_order": ["section_main","enable_consolidation","dimension_catalog_json","notes"],
+  "fields": [
+    {"fieldname":"section_main","fieldtype":"Section Break","label":"Core Options"},
+    {"fieldname":"enable_consolidation","fieldtype":"Check","label":"Enable Consolidation Features","default":"1"},
+    {"fieldname":"dimension_catalog_json","fieldtype":"Code","label":"Optional Dimension Catalog JSON","options":"JSON","description":"Optional map of custom dimension fieldname to DocType, e.g. {\"branch\": \"Branch\", \"department\": \"Department\"}."},
+    {"fieldname":"notes","fieldtype":"Small Text","label":"Notes for Admin"}
+  ],
+  "permissions": [
+    {"role":"System Manager","read":1,"write":1,"create":1,"delete":1,"share":1,"print":1,"email":1,"export":1},
+    {"role":"Accounts Manager","read":1,"write":1,"create":1,"delete":1,"print":1,"email":1,"export":1}
+  ],
+  "title_field": "name"
+}
